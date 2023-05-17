@@ -1,0 +1,50 @@
+* {
+    font-family: Arial;
+}
+
+#title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#input {
+    width: 250px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+#add_button {
+    width: 70px;
+    height: 30px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+#task_list {
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+#delete_button {
+    width: 70px;
+    height: 30px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
